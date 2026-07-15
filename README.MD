@@ -1,99 +1,65 @@
 <p align="center">
 <img 
-    src="./assets/cover.png"
-    width="300"
+    src="./assets/cover.jpg"
+    width="320"
+    alt="Capa do podcast Dados Descomplicados"
 />
 </p>
 
 <p align="center">
-<a href="https://dio.me/">
-    <img 
-        src="https://img.shields.io/badge/DIO-Code_The_Future-28DA77?logo=youtube" 
-        alt="DIO - Code The Future">
-</a>
-<a href="https://dio.me/">
-<img 
-    src="https://img.shields.io/badge/🔴_LIVE_CODE-FF5E72" 
-    alt="🔴 LIVE CODE">
-</a>
+    <audio src="output/podcast_editado.mp3" controls title="Podcast editado"></audio>
 </p>
 
-<p align="center">
-    preview do podcast
-</p>
+# Podcast "Dados Descomplicados"
 
-<div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
-</div>
+Este repositório reúne o roteiro e a identidade visual do podcast **Dados Descomplicados**, criado para apresentar análise de dados de forma simples, direta e acessível para iniciantes.
 
-# Projeto Podcast Gerado por I.A.s
+## 🎙️ O que tem neste projeto
 
+- Roteiro de podcast gerado com IA para um público iniciante.
+- Capa criada com foco em elementos visuais ligados a dados.
+- Áudios narrados e editados com apoio de ferramentas online.
+- Áudio final exportado em `output/podcast_editado.MP3`.
 
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
+## 🧠 Prompt usado no roteiro
 
-Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de prompts mais trabalhado.
+> "Crie um roteiro de podcast de tecnologia, focado em análise de dados, cujo nome você pode sugerir, com público-alvo iniciantes em dados. Formato: Intro (estilo Leon Martins/Coisa de Nerd), Fato 1 (inicial em dados), Fato 2 (ferramentas), Finalização (despedida cool). Regras: Uma pessoa só, evite termos técnicos, máximo 5 minutos."
 
-Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
+O roteiro foi pensado para ficar leve e fácil de narrar, com esta estrutura:
 
-## 💻 Tecnologias utilizadas no projeto
+- Introdução acolhedora e dinâmica.
+- Explicação simples sobre o que são dados.
+- Sugestões de ferramentas para começar, como planilhas e visualização.
+- Encerramento descontraído e curto.
 
-- [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
-- [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
+## 🎨 Prompt usado na capa
 
-## ✨ Como foi feito ?
+> "Crie uma imagem para capa do podcast com elementos de dados."
 
-- Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
+> "Recrie somente com elementos de dados e o título 'Dados Descomplicados'."
 
-## 📚 Materiais
+A arte final prioriza uma estética moderna, limpa e com foco em gráficos e elementos digitais.
 
-- [Link da live no Youtube](https://www.youtube.com)
-- [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+## 🚀 Como usar
 
+1. Leia o roteiro em `src/prompts/gemini.md`.
+2. Use o texto gerado como base para gravação ou narração.
+3. Edite o áudio no editor de sua preferência, se necessário.
+4. Consulte os arquivos em `assets/` e `output/` como referência do resultado final.
 
-## 🛠️ Instruções de execução
+## 🛠️ Ferramentas usadas
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+- Gemini para estruturação do roteiro.
+- Nano Banana para geração da capa.
+- LuvVoice para criação dos áudios.
+- MP3Cut para edição online do áudio.
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
+## 📁 Estrutura
 
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
+- `assets/` contém a capa e materiais visuais.
+- `output/` contém o áudio final exportado.
+- `src/prompts/` contém os prompts usados na criação.
 
 ---
 
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+_Projeto criado com apoio de IA para estudo de fluxo criativo, geração de roteiro, produção de voz e edição de podcast._
